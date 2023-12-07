@@ -138,3 +138,19 @@ h3 {
 .clan__card__name {
   font-size: 20px;
 }
+
+@media (min-width: 300px) and (max-width: 1200px) {
+  .main {
+    margin: 10px;
+  }
+  .anime__card {
+    width: 100%;
+  }
+  .main-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(120px, 1fr)
+    );
+    gap: 5px;
+  }
+}
